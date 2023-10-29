@@ -1,0 +1,174 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 720px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #432818;
+}
+img{
+    width: 100px;
+}
+
+h1{
+    font-size: 32px;
+    font-weight: 900;
+}
+h2{
+    font-size: 20px;
+    font-weight: 700;
+}
+h3{
+    margin: 0;
+    padding: 20px 0;
+    font-size: 20px;
+    font-weight: 900;
+    color: #432818;
+}
+h4{
+    color: #432818;
+    font-size: 18px;
+    font-weight: 700;
+}
+p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #432818;
+    margin: 0;
+}
+
+/* HERO SECTION */
+
+.hero-section{
+    background: url(images/skopje-landscape.jpeg) center center;
+    background-size: cover;
+    height: 350px;
+    color: #ffffff;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hero-section h1{
+    background-color: #6F1D1B;
+    padding: 7px 15px;
+    border-radius: 10px;
+}
+.hero-section h2{
+    background-color: #6F1D1B;
+    padding: 7px 15px;
+    border-radius: 10px;
+}
+
+/* ACTIVITIES SECTION */
+
+.activities-section{
+    background-color: #FFE6A7;
+    padding: 20px 10px;
+}
+.images-container{
+    display: flex;
+    justify-content: space-around;
+}
+.single-img-container{
+    max-width: 30%;
+}
+.single-img-container img{
+    border-radius: 50%;
+    width: 100px;
+}
+.single-img-container h4{
+    margin: 10px 0;
+    padding: 0 10px;
+}
+.single-img-container p{
+    margin: 10px 0;
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+/* GUIDE SECTION */
+
+.guide-section{
+    background: #BB9457;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.guide-section .card{
+    color: #432818; 
+    padding: 20px 20px;
+    display: flex;
+    max-width: 450px;
+    margin: 0 auto;
+    background-color: #faedcd;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: 8px solid #6F1D1B;
+}
+.guide-section .img-container{
+    max-width: 200px;
+}
+.guide-section img{
+    width: 100%;
+    border-radius: 5px;
+}
+.guide-section .content-container{
+    max-width: 200px;
+    padding: 20px;
+}
+.guide-section h3{
+    padding: 0;
+}
+.guide-section h4{
+    margin: 0;
+    padding-top: 20px;
+}
+.guide-section p{
+    padding-top: 20px;
+}
+
+/* CONTACT SECTION */
+
+.contact-section{
+    background-color: #d6ccc2;
+    padding: 20px 0 30px 0;
+}
+.contact-section .phone-container, .contact-section .email-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.contact-section img{
+    width: 50px;
+}
+.contact-section p{
+    padding-left: 30px;
+    text-align: left;
+    width: 160px;
+    font-weight: 900;
+    color: #6F1D1B;
+}
+.contact-section a{
+    color: #6F1D1B;
+    text-decoration: none;
+}
+.contact-section a:hover{
+    color: #BB9457;
+}
